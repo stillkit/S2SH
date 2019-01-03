@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="S2SH">
+    <output-path>$PROJECT_DIR$/../tomcat9/webapps</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="SSH" />
+        </element>
+      </element>
+      <element id="archive" name="archive.jar">
+        <element id="dir-copy" path="$PROJECT_DIR$/target/SSH" />
+      </element>
+    </root>
+  </artifact>
+</component>
